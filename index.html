@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="http://fonts.googleapis.com/css?family=Poppins:200,300,400,400i,600,700|Montserrat:300,400,700|Caveat+Brush" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
+
+	<!-- Music Specific Stylesheet -->
+	<link rel="stylesheet" href="assets/music/music.css" type="text/css" />
+	<!-- / -->
+
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="one-page/css/et-line.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<link rel="stylesheet" href="assets/music/css/fonts.css" type="text/css" />
+
+	<!-- Bootstrap Switch CSS -->
+	<link rel="stylesheet" href="css/components/bs-switches.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- Theme color -->
+	<link rel="stylesheet" href="css/colors.php?color=ed215e" type="text/css" />
+
+	<!-- Audio Player Plugin CSS -->
+	<link rel="stylesheet" href="assets/music/css/mediaelement/mediaelementplayer.css">
+
+	<!-- Document Title
+	============================================= -->
+	<title> 📻 Dream Radio</title>
+
+	<style>
+		@media (max-width: 479px) {
+			.swiper_wrapper:not(.force-full-screen),
+			.swiper_wrapper:not(.force-full-screen):not(.canvas-slider-grid) .swiper-slide {
+				height: 300px !important;
+			}
+		}
+
+		.css3-spinner { background-color: #131722; }
+	</style>
+
+</head>
+
+<body class="stretched bgcolor2" data-loader="4" data-loader-color="theme">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix" style="margin-bottom: 40px">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="full-header transparent-header dark no-sticky">
+
+			<div id="header-wrap">
+
+				<div class="container clearfix">
+
+			
+					<div id="logo" style="margin-top:1.5vh !important">
+						DREAM RADIO
+					</div>
+
+					<nav id="primary-menu" class="clearfix not-dark">
+
+						<ul>
+							<!-- <li class="active"><a href="#"><div>Home</div></a></li>
+							<li><a href="#"><div>Musics</div></a>
+								<ul>
+									<li><a href="#"><div>Featured</div></a></li>
+									<li><a href="#"><div>New Arrivals</div></a></li>
+									<li><a href="#"><div>Old Popular</div></a></li>
+									<li><a href="#"><div>Top 90's</div></a></li>
+								</ul>
+							</li>
+							<li><a href="#"><div>About</div></a></li>
+							<li><a href="#"><div>Discover</div></a></li>
+							<li><a href="#"><div>Artists</div></a>
+								<ul>
+									<li><a href="#"><div>A-Z Artists</div></a></li>
+									<li><a href="#"><div>New Artists</div></a></li>
+									<li><a href="#"><div>Popular Artists</div></a></li>
+								</ul>
+							</li>
+							<li><a href="#"><div>Videos</div></a></li> -->
+							<li><a href="#"><div>Contact</div></a></li>
+						</ul>
+
+						<!-- Top Search
+						============================================= -->
+						<!-- <div id="top-search">
+							<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
+							<form action="search.html" method="get">
+								<input type="text" name="q" class="form-control" value="" placeholder="Find your Music here....">
+							</form>
+						</div> -->
+						<!-- #top-search end -->
+
+					</nav><!-- #primary-menu end -->
+
+				</div>
+
+			</div>
+
+		</header><!-- #header end -->
+
+		<!-- Slider
+		============================================= -->
+		<section id="slider" class="slider-element clearfix swiper_wrapper" style="background: #131722; height: 800px" data-effect="fade" data-loop="true" data-speed="1000">
+			<div class="swiper-container swiper-parent">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide dark" style="background: url('assets/music/images/slider/DJDJ.png') no-repeat bottom center; background-size: cover">
+						<div class="container clearfix">
+							<div class="slider-caption">
+								<h2 class="font-primary nott">Aqui Estoy.</h2>
+								<!-- <p class="d-none d-md-block">From the New York City of the World.</p> -->
+								<a class="button button-rounded t400 ls1 track-list clearfix" data-track="assets/music/tracks/aqui-estoy.mp3" data-poster="assets/music/tracks/poster-images/the-terror-of-highway.jpg" data-title="Aqui Estoy" data-singer="United Album" style="margin-top: 15px"><i class="icon-play"></i>Play Now</a>
+								<a href="#" class="button d-none d-md-inline-block button-rounded" style="margin-top: 15px; background-color: #1f2330; padding: 0 16px;"><i class="icon-line-ribbon norightmargin"></i></a>
+								<a href="#" class="button d-none d-md-inline-block button-rounded" style="margin-top: 15px; background-color: #1f2330; padding: 0 16px;"><i class="icon-line-heart norightmargin"></i></a>
+								<a href="#" class="button d-none d-md-inline-block nobg t300 nott" style="margin-top: 15px; padding: 0 16px;"><i class="icon-line-share color"></i>Share</a>
+								<a href="#" class="button d-none d-md-inline-block nobg t300 nott noleftmargin" style="margin-top: 15px; padding: 0 16px;"><i class="icon-line-plus color"></i>Add</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="slider-arrow-left" class="nobg"><i class="icon-line-arrow-left"></i></div>
+				<div class="slider-arrow-right" class="nobg"><i class="icon-line-arrow-right"></i></div> -->
+			</div>
+			
+		</section>
+
+		<!-- Content
+		============================================= -->
+		<section id="content" class="bgcolor2" style="overflow: visible;">
+
+			<div class="content-wrap nopadding">
+
+				<div class="container clearfix" style="z-index: 7;">
+					<div class="heading-block bottommargin-sm noborder dark" style="margin-top: -30px">
+						<h3>Popular Songs of the Week</h3>
+					</div>
+
+					<!-- Carousel
+					============================================= -->
+					<div id="oc-popular-songs" class="owl-carousel image-carousel carousel-widget" data-margin="20" data-nav="true" data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="6" data-items-xl="6">
+
+						<!-- Carousel Items
+						============================================= -->
+						<div class="oc-item" data-animate="fadeInDown">
+							<img src="assets/music/images/popular-songs/serenata-cover.png" alt="Image 1">
+							<div class="overlay">
+								<div class="text-overlay">
+									<div class="text-overlay-title">
+										<h3><a href="#">Serenata de Invierno</a></h3>
+									</div>
+									<div class="text-overlay-meta">
+										<a href="#">Single</a>
+									</div>
+								</div>
+								<div class="on-hover">
+									<a href="#" class="ellipsis-icon"><i class="icon-line-ellipsis"></i></a>
+									<a href="#" class="play-icon track-list" data-track="assets/music/tracks/serenata-de-invierno.mp3" data-poster="assets/music/images/popular-songs/serenata-cover.png" data-title="Serenata de Invierno" data-singer="Lyrica"><i class="icon-play"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="oc-item" data-animate="fadeInDown" data-delay="100">
+							<img src="assets/music/tracks/poster-images/mirame2.png" alt="Image 1">
+							<div class="overlay">
+								<div class="text-overlay">
+									<div class="text-overlay-title">
+										<h3><a href="#">Mirame</a></h3>
+									</div>
+									<div class="text-overlay-meta">
+										<a href="#">Single</a>
+									</div>
+								</div>
+								<div class="on-hover">
+									<a href="#" class="ellipsis-icon"><i class="icon-line-ellipsis"></i></a>
+									<a href="#" class="play-icon track-list" data-track="assets/music/tracks/mirame.mp3" data-poster="assets/music/tracks/poster-images/mirame2.png" data-title="Mirame" data-singer="Lyrica"><i class="icon-play"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="oc-item" data-animate="fadeInDown" data-delay="400">
+								<img src="assets/music/tracks/poster-images/wttc questinmark2png.png" alt="Image 1">
+								<div class="overlay">
+									<div class="text-overlay">
+										<div class="text-overlay-title">
+											<h3><a href="#">La Tarima</a></h3>
+										</div>
+										<div class="text-overlay-meta">
+											<a href="#">Welcome to the City</a>
+										</div>
+									</div>
+									<div class="on-hover">
+										<a href="#" class="ellipsis-icon"><i class="icon-line-ellipsis"></i></a>
+										<a href="#" class="play-icon track-list" data-track="assets/music/tracks/13-La-Tarima.mp3" data-poster="assets/music/tracks/poster-images/wttc questinmark2png.png" data-title="La Tarima" data-singer="Lyrica"><i class="icon-play"></i></a>
+									</div>
+								</div>
+							</div>
+						<div class="oc-item" data-animate="fadeInDown" data-delay="250">
+							<img src="assets/music/tracks/poster-images/mas-que-decente.png" alt="Image 1">
+							<div class="overlay">
+								<div class="text-overlay">
+									<div class="text-overlay-title">
+										<h3><a href="#">Mas Que Decente</a></h3>
+									</div>
+									<div class="text-overlay-meta">
+										<a href="#">Single</a>
+									</div>
+								</div>
+								<div class="on-hover">
+									<a href="#" class="ellipsis-icon"><i class="icon-line-ellipsis"></i></a>
+									<a href="#" class="play-icon track-list" data-track="assets/music/tracks/mas-que-decente.mp3" data-poster="assets/music/tracks/poster-images/mas-que-decente.png" data-title="Mas Que Decente" data-singer="Lyrica"><i class="icon-play"></i></a>
+								</div>
+							</div>
+						</div>
+	
+						<div class="oc-item" data-animate="fadeInDown" data-delay="550">
+							<img src="assets/music/tracks/poster-images/wttc questinmark2png.png" alt="Image 1">
+							<div class="overlay">
+								<div class="text-overlay">
+									<div class="text-overlay-title">
+										<h3><a href="#">Reclamo de Amor</a></h3>
+									</div>
+									<div class="text-overlay-meta">
+										<a href="#">Lyrica</a>
+									</div>
+								</div>
+								<div class="on-hover">
+									<a href="#" class="ellipsis-icon"><i class="icon-line-ellipsis"></i></a>
+									<a href="#" class="play-icon track-list" data-track="assets/music/tracks/16. Reclamo De Amor.mp3" data-poster="assets/music/tracks/poster-images/wttc questinmark2png.png" data-title="Reclamo de Amor" data-singer="Lyrica"><i class="icon-play"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="oc-item" data-animate="fadeInDown" data-delay="700">
+							<img src="assets/music/tracks/poster-images/wttc questinmark2png.png" alt="Image 1">
+							<div class="overlay">
+								<div class="text-overlay">
+									<div class="text-overlay-title">
+										<h3><a href="#">Inexplicable Mujer</a></h3>
+									</div>
+									<div class="text-overlay-meta">
+										<a href="#">Welcome to The city</a>
+									</div>
+								</div>
+								<div class="on-hover">
+									<a href="#" class="ellipsis-icon"><i class="icon-line-ellipsis"></i></a>
+									<a href="#" class="play-icon track-list" data-track="assets/music/tracks/05 Inexplicable Mujer.mp3" data-poster="assets/music/tracks/poster-images/wttc questinmark2png.png" data-title="Inexplicable Mujer" data-singer="Lyrica"><i class="icon-play"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="oc-item" data-animate="fadeInDown">
+							<img src="assets/music/images/popular-songs/2.jpg" alt="Image 1">
+							<div class="overlay">
+								<div class="text-overlay">
+									<div class="text-overlay-title">
+										<h3><a href="#">Tammy Stan Devereaux</a></h3>
+									</div>
+									<div class="text-overlay-meta">
+										<a href="#">Devereaux</a>
+									</div>
+								</div>
+								<div class="on-hover">
+									<a href="#" class="ellipsis-icon"><i class="icon-line-ellipsis"></i></a>
+									<a href="#" class="play-icon track-list" data-track="assets/music/tracks/tammy-stan-devereaux.mp3" data-poster="assets/music/tracks/poster-images/tammy-stan-devereaux.jpg" data-title="Tammy Stan Devereaux" data-singer="Devereaux"><i class="icon-play"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="oc-item" data-animate="fadeInDown">
+							<img src="assets/music/images/popular-songs/5.jpg" alt="Image 1">
+							<div class="overlay">
+								<div class="text-overlay">
+									<div class="text-overlay-title">
+										<h3><a href="#">Something About Love</a></h3>
+									</div>
+									<div class="text-overlay-meta">
+										<a href="#">Sian</a>
+									</div>
+								</div>
+								<div class="on-hover">
+									<a href="#" class="ellipsis-icon"><i class="icon-line-ellipsis"></i></a>
+									<a href="#" class="play-icon track-list" data-track="assets/music/tracks/something-about-love.mp3" data-poster="assets/music/tracks/poster-images/something-about-love.jpg" data-title="Something About Love" data-singer="Sian"><i class="icon-play"></i></a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="row topmargin-lg clearfix">
+						<div class="col-lg-6">
+							<div class="heading-block noborder dark" style="margin-bottom: 15px;">
+								<h3>Welcome to The City Album</h3>
+							</div>
+
+							<!-- Song Lists Items
+							============================================= -->
+							<div class="songs-lists-wrap">
+
+								<!-- List Items
+								============================================= -->
+								<div class="songs-list">
+									<div class="songs-number">01</div>
+									<div class="songs-image track-image">
+										<a href="#" class="track-list"  data-track="assets/music/tracks/01-Pre-Intro-Episode.mp3" data-poster="assets/music/tracks/poster-images/ibelieveinyou.jpg" data-title="Pre-Intro Episode" data-singer="Lyrica">
+											<img src="assets/music/tracks/poster-images/wttc questinmark2png.png" alt="Image 1"><span><i class="icon-play"></i></span>
+										</a>
+									</div>
+									<div class="songs-name track-name"><a href="#">Pre-Intro Episode</a></div>
+									<div class="songs-time">03:28</div>
+									<!-- <div class="songs-button"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-line-ellipsis"></i></a>
+										<ul class="dropdown-menu dropdown-menu-right">
+											<li>
+												<a class="dropdown-item" href="#"><span class="icon-line-plus"></span> Add to Queue</a>
+												<a class="dropdown-item" href="#"><span class="icon-music"></span> Add to Playlist</a>
+												<a class="dropdown-item" href="#"><span class="icon-line-cloud-download"></span> Download Offline</a>
+												<a class="dropdown-item" href="#"><span class="icon-line-heart"></span> Love</a>
+												<div class="dropdown-divider"></div>
+												<a class="dropdown-item" href="#"><span class="icon-line-share"></span> Share</a>
+											</li>
+										</ul>
+									</div> -->
+								</div>
+
+								<!-- List Items
+								============================================= -->
+								<div class="songs-list">
+									<div class="songs-number">02</div>
+									<div class="songs-image track-image">
+										<a href="#" class="track-list" data-track="assets/music/tracks/02-Big-Johny-Episode.mp3" data-poster="assets/music/tracks/poster-images/wttc questinmark2png.png" data-title="Big Johny Episode" data-singer="Lyrica">
+										<img src="assets/music/tracks/poster-images/wttc questinmark2png.png" alt="Image 1"><span><i class="icon-play"></i></span></a>
+									</div>
+									<div class="songs-name track-name"><a href="#">Big Johny Episode</a></div>
+									<div class="songs-time">03:33</div>
+									<!-- <div class="songs-button"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-line-ellipsis"></i></a>
+										<ul class="dropdown-menu dropdown-menu-right">
+											<li>
+												<a class="dropdown-item" href="#"><span class="icon-line-plus"></span> Add to Queue</a>
+												<a class="dropdown-item" href="#"><span class="icon-music"></span> Add to Playlist</a>
+												<a class="dropdown-item" href="#"><span class="icon-line-cloud-download"></span> Download Offline</a>
+												<a class="dropdown-item" href="#"><span class="icon-line-heart"></span> Love</a>
+												<div class="dropdown-divider"></div>
+												<a class="dropdown-item" href="#"><span class="icon-line-share"></span> Share</a>
+											</li>
+										</ul>
+									</div> -->
+								</div>
+
+								<!-- List Items
+								============================================= -->
+								<div class="songs-list">
+									<div class="songs-number">03</div>
+									<div class="songs-image track-image">
+										<a href="#" class="track-list" data-track="assets/music/tracks/03-Welcome-To-The-City.mp3 data-poster="assets/music/tracks/poster-images/wttc questinmark2png.png" data-title="Welcome To The City" data-singer="Lyrica">
+										<img src="assets/music/tracks/poster-images/wttc questinmark2png.png"  alt="Image 1"><span><i class="icon-play"></i></span></a>
+									</div>
+									<div class="songs-name track-name"><a href="#">Welcome To The City</a></div>
+									<div class="songs-time">03:43</div>
+									<!-- <div class="songs-button"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-line-ellipsis"></i></a>
+										<ul class="dropdown-menu dropdown-menu-right">
+											<li>
+												<a class="dropdown-item" href="#"><span class="icon-line-plus"></span> Add to Queue</a>
+												<a class="dropdown-item" href="#"><span class="icon-music"></span> Add to Playlist</a>
+												<a class="dropdown-item" href="#"><span class="icon-line-cloud-download"></span> Download Offline</a>
+												<a class="dropdown-item" href="#"><span class="icon-line-heart"></span> Love</a>
+												<div class="dropdown-divider"></div>
+												<a class="dropdown-item" href="#"><span class="icon-line-share"></span> Share</a>
+											</li>
+										</ul>
+									</div> -->
+								</div>
+
+								<!-- List Items
+								============================================= -->
+								<div class="songs-list">
+									<div class="songs-number">04</div>
+									<div class="songs-image track-image">
+										<a href="#" class="track-list" data-track="assets/music/tracks/04 Baul De Memorias.mp3" data-poster="assets/music/tracks/poster-images/wttc questinmark2png.png" data-title="Baul De Memorias" data-singer="Lyrica">
+										<img src="assets/music/tracks/poster-images/wttc questinmark2png.png" alt="Image 1"><span><i class="icon-play"></i></span></a>
+									</div>
+									<div class="songs-name track-name"><a href="#">Baul De Memorias</a></div>
+									<div class="songs-time">04:08</div>
+									<!-- <div class="songs-button"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-line-ellipsis"></i></a>
+										<ul class="dropdown-menu dropdown-menu-right">
+											<li>
+												<a class="dropdown-item" href="#"><span class="icon-line-plus"></span> Add to Queue</a>
+												<a class="dropdown-item" href="#"><span class="icon-music"></span> Add to Playlist</a>
+												<a class="dropdown-item" href="#"><span class="icon-line-cloud-download"></span> Download Offline</a>
+												<a class="dropdown-item" href="#"><span class="icon-line-heart"></span> Love</a>
+												<div class="dropdown-divider"></div>
+												<a class="dropdown-item" href="#"><span class="icon-line-share"></span> Share</a>
+											</li>
+										</ul>
+									</div> -->
+								</div>
+
+								<!-- List Items
+								============================================= -->
+								<div class="songs-list">
+									<div class="songs-number">05</div>
+									<div class="songs-image track-image">
+										<a href="#" class="track-list" data-track="assets/music/tracks/05 Inexplicable Mujer.mp3" data-poster="assets/music/tracks/poster-images/wttc questinmark2png.png" data-title="Inexplicable Mujer" data-singer="Lyrica">
+										<img src="assets/music/tracks/poster-images/wttc questinmark2png.png" alt="Image 1"><span><i class="icon-play"></i></span></a>
+									</div>
+									<div class="songs-name track-name"><a href="#">Inexplicable Mujer</a></div>
+									<div class="songs-time">02:54</div>
+									<!-- <div class="songs-button"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-line-ellipsis"></i></a>
+										<ul class="dropdown-menu dropdown-menu-right">
+											<li>
+												<a class="dropdown-item" href="#"><span class="icon-line-plus"></span> Add to Queue</a>
+												<a class="dropdown-item" href="#"><span class="icon-music"></span> Add to Playlist</a>
+												<a class="dropdown-item" href="#"><span class="icon-line-cloud-download"></span> Download Offline</a>
+												<a class="dropdown-item" href="#"><span class="icon-line-heart"></span> Love</a>
+												<div class="dropdown-divider"></div>
+												<a class="dropdown-item" href="#"><span class="icon-line-share"></span> Share</a>
+											</li>
+										</ul>
+									</div> -->
+								</div>
+
+								<!-- List Items
+								============================================= -->
+								<div class="songs-list">
+									<div class="songs-number">06</div>
+									<div class="songs-image track-image">
+										<a href="#" class="track-list" data-track="assets/music/tracks/06 DreamRadio Episode.mp3" data-poster="assets/music/tracks/poster-images/wttc questinmark2png.png"  data-title="DreamRadio Episode" data-singer="Lyrica">
+										<img src="assets/music/tracks/poster-images/wttc questinmark2png.png"  alt="Image 1"><span><i class="icon-play"></i></span></a>
+									</div>
+									<div class="songs-name track-name"><a href="#">DreamRadio Episode</a></div>
+									<div class="songs-time">03:21</div>
+									<!-- <div class="songs-button"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-line-ellipsis"></i></a>
+										<ul class="dropdown-menu dropdown-menu-right">
+											<li>
+												<a class="dropdown-item" href="#"><span class="icon-line-plus"></span> Add to Queue</a>
+												<a class="dropdown-item" href="#"><span class="icon-music"></span> Add to Playlist</a>
+												<a class="dropdown-item" href="#"><span class="icon-line-cloud-download"></span> Download Offline</a>
+												<a class="dropdown-item" href="#"><span class="icon-line-heart"></span> Love</a>
+												<div class="dropdown-divider"></div>
+												<a class="dropdown-item" href="#"><span class="icon-line-share"></span> Share</a>
+											</li>
+										</ul>
+									</div> -->
+								</div>
+
+								<!-- List Items
+								============================================= -->
+								<div class="songs-list">
+										<div class="songs-number">07</div>
+										<div class="songs-image track-image">
+											<a href="#" class="track-list" data-track="assets/music/tracks/07 Yo Siento.mp3" data-poster="assets/music/tracks/poster-images/wttc questinmark2png.png" data-title="Yo Siento" data-singer="Lyrica">
+											<img src="assets/music/tracks/poster-images/wttc questinmark2png.png" alt="Image 1"><span><i class="icon-play"></i></span></a>
+										</div>
+										<div class="songs-name track-name"><a href="#">Yo Siento</a></div>
+										<div class="songs-time">02:54</div>
+										<!-- <div class="songs-button"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-line-ellipsis"></i></a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li>
+													<a class="dropdown-item" href="#"><span class="icon-line-plus"></span> Add to Queue</a>
+													<a class="dropdown-item" href="#"><span class="icon-music"></span> Add to Playlist</a>
+													<a class="dropdown-item" href="#"><span class="icon-line-cloud-download"></span> Download Offline</a>
+													<a class="dropdown-item" href="#"><span class="icon-line-heart"></span> Love</a>
+													<div class="dropdown-divider"></div>
+													<a class="dropdown-item" href="#"><span class="icon-line-share"></span> Share</a>
+												</li>
+											</ul>
+										</div> -->
+									</div>
+	
+												<!-- List Items
+									============================================= -->
+									<div class="songs-list">
+											<div class="songs-number">08</div>
+											<div class="songs-image track-image">
+												<a href="#" class="track-list" data-track="assets/music/tracks/08 Defensa.mp3" data-poster="assets/music/tracks/poster-images/wttc questinmark2png.png" data-title="Defensa" data-singer="Lyrica">
+												<img src="assets/music/tracks/poster-images/wttc questinmark2png.png" alt="Image 1"><span><i class="icon-play"></i></span></a>
+											</div>
+											<div class="songs-name track-name"><a href="#">Defensa</a></div>
+											<div class="songs-time">04:08</div>
+											<!-- <div class="songs-button"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-line-ellipsis"></i></a>
+												<ul class="dropdown-menu dropdown-menu-right">
+													<li>
+														<a class="dropdown-item" href="#"><span class="icon-line-plus"></span> Add to Queue</a>
+														<a class="dropdown-item" href="#"><span class="icon-music"></span> Add to Playlist</a>
+														<a class="dropdown-item" href="#"><span class="icon-line-cloud-download"></span> Download Offline</a>
+														<a class="dropdown-item" href="#"><span class="icon-line-heart"></span> Love</a>
+														<div class="dropdown-divider"></div>
+														<a class="dropdown-item" href="#"><span class="icon-line-share"></span> Share</a>
+													</li>
+												</ul>
+											</div> -->
+										</div>
+	
+	
+							</div>
+							<!-- <a href="#" class="button nobg t300 nott fright noleftmargin" style="color: #AAA; padding: 0 16px;">See More..</a> -->
+						</div>
+
+						<div class="w-100 d-block d-md-block d-lg-none topmargin-lg clear"></div>
+
+						<div class="col-lg-6" style="margin-top:35px;">
+							<div class="heading-block noborder dark" style="margin-bottom: 15px;">
+								<!-- <h3>Latest Tracks</h3>
+								<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> -->
+							</div>
+							<div class="songs-lists-wrap">
+
+								
+									<!-- List Items
+									============================================= -->
+									<div class="songs-list">
+											<div class="songs-number">09</div>
+											<div class="songs-image track-image">
+												<a href="#" class="track-list" data-track="assets/music/tracks/09 Mujer De Mil Mascaras.mp3 data-poster="assets/music/tracks/poster-images/wttc questinmark2png.png" data-title="Mujer De Mil Mascaras" data-singer="Lyrica">
+												<img src="assets/music/tracks/poster-images/wttc questinmark2png.png" alt="Image 1"><span><i class="icon-play"></i></span></a>
+											</div>
+											<div class="songs-name track-name"><a href="#">Mujer De Mil Mascaras</a></div>
+											<div class="songs-time">03:21</div>
+											<!-- <div class="songs-button"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-line-ellipsis"></i></a>
+												<ul class="dropdown-menu dropdown-menu-right">
+													<li>
+														<a class="dropdown-item" href="#"><span class="icon-line-plus"></span> Add to Queue</a>
+														<a class="dropdown-item" href="#"><span class="icon-music"></span> Add to Playlist</a>
+														<a class="dropdown-item" href="#"><span class="icon-line-cloud-download"></span> Download Offline</a>
+														<a class="dropdown-item" href="#"><span class="icon-line-heart"></span> Love</a>
+														<div class="dropdown-divider"></div>
+														<a class="dropdown-item" href="#"><span class="icon-line-share"></span> Share</a>
+													</li>
+												</ul>
+											</div> -->
+										</div>
+		
+							
+		
+										<!-- List Items
+										============================================= -->
+										<div class="songs-list">
+											<div class="songs-number">10</div>
+											<div class="songs-image track-image">
+												<a href="#" class="track-list" data-track="assets/music/tracks/10 Tamo Bien.mp3" data-poster="assets/music/tracks/poster-images/wttc questinmark2png.png" data-title="Tamo Bien" data-singer="Lyrica">
+												<img src="assets/music/tracks/poster-images/wttc questinmark2png.png" alt="Image 1"><span><i class="icon-play"></i></span></a>
+											</div>
+											<div class="songs-name track-name"><a href="#">Tamo Bien</a></div>
+											<div class="songs-time">03:33</div>
+											<!-- <div class="songs-button"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-line-ellipsis"></i></a>
+												<ul class="dropdown-menu dropdown-menu-right">
+													<li>
+														<a class="dropdown-item" href="#"><span class="icon-line-plus"></span> Add to Queue</a>
+														<a class="dropdown-item" href="#"><span class="icon-music"></span> Add to Playlist</a>
+														<a class="dropdown-item" href="#"><span class="icon-line-cloud-download"></span> Download Offline</a>
+														<a class="dropdown-item" href="#"><span class="icon-line-heart"></span> Love</a>
+														<div class="dropdown-divider"></div>
+														<a class="dropdown-item" href="#"><span class="icon-line-share"></span> Share</a>
+													</li>
+												</ul>
+											</div> -->
+										</div>
+
+								
+								<!-- List Items
+								============================================= -->
+								<div class="songs-list">
+									<div class="songs-number">11</div>
+									<div class="songs-image track-image">
+										<a href="#" class="track-list" data-track="assets/music/tracks/11 Dangerous Episode.mp3" data-poster="assets/music/tracks/poster-images/wttc questinmark2png.png" data-title="Dangerous Episode" data-singer="Lyrica">
+										<img src="assets/music/tracks/poster-images/wttc questinmark2png.png" alt="Image 1"><span><i class="icon-play"></i></span></a>
+									</div>
+									<div class="songs-name track-name"><a href="#">Dangerous Episode</a></div>
+									<div class="songs-time">03:43</div>
+									<!-- <div class="songs-button"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-line-ellipsis"></i></a>
+										<ul class="dropdown-menu dropdown-menu-right">
+											<li>
+												<a class="dropdown-item" href="#"><span class="icon-line-plus"></span> Add to Queue</a>
+												<a class="dropdown-item" href="#"><span class="icon-music"></span> Add to Playlist</a>
+												<a class="dropdown-item" href="#"><span class="icon-line-cloud-download"></span> Download Offline</a>
+												<a class="dropdown-item" href="#"><span class="icon-line-heart"></span> Love</a>
+												<div class="dropdown-divider"></div>
+												<a class="dropdown-item" href="#"><span class="icon-line-share"></span> Share</a>
+											</li>
+										</ul>
+									</div> -->
+								</div>
+
+								<!-- List Items
+								============================================= -->
+								<div class="songs-list">
+									<div class="songs-number">12</div>
+									<div class="songs-image track-image">
+										<a href="#" class="track-list"  data-track="assets/music/tracks/12 Genesis.mp3" data-poster="assets/music/tracks/poster-images/wttc questinmark2png.png" data-title="Genesis" data-singer="Lyrica">
+											<img src="assets/music/tracks/poster-images/wttc questinmark2png.png" alt="Image 1"><span><i class="icon-play"></i></span>
+										</a>
+									</div>
+									<div class="songs-name track-name"><a href="#">Genesis</a></div>
+									<div class="songs-time">03:28</div>
+									<!-- <div class="songs-button"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-line-ellipsis"></i></a>
+										<ul class="dropdown-menu dropdown-menu-right">
+											<li>
+												<a class="dropdown-item" href="#"><span class="icon-line-plus"></span> Add to Queue</a>
+												<a class="dropdown-item" href="#"><span class="icon-music"></span> Add to Playlist</a>
+												<a class="dropdown-item" href="#"><span class="icon-line-cloud-download"></span> Download Offline</a>
+												<a class="dropdown-item" href="#"><span class="icon-line-heart"></span> Love</a>
+												<div class="dropdown-divider"></div>
+												<a class="dropdown-item" href="#"><span class="icon-line-share"></span> Share</a>
+											</li>
+										</ul>
+									</div> -->
+								</div>
+
+
+								<div class="songs-list">
+										<div class="songs-number">13</div>
+										<div class="songs-image track-image">
+											<a href="#" class="track-list"  data-track="assets/music/tracks/13-La-Tarima.mp3" data-poster="assets/music/tracks/poster-images/wttc questinmark2png.png" data-title="La Tarima" data-singer="Lyrica">
+												<img src="assets/music/tracks/poster-images/wttc questinmark2png.png" alt="Image 1"><span><i class="icon-play"></i></span>
+											</a>
+										</div>
+										<div class="songs-name track-name"><a href="#">La Tarima</a></div>
+										<div class="songs-time">03:28</div>
+										<!-- <div class="songs-button"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-line-ellipsis"></i></a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li>
+													<a class="dropdown-item" href="#"><span class="icon-line-plus"></span> Add to Queue</a>
+													<a class="dropdown-item" href="#"><span class="icon-music"></span> Add to Playlist</a>
+													<a class="dropdown-item" href="#"><span class="icon-line-cloud-download"></span> Download Offline</a>
+													<a class="dropdown-item" href="#"><span class="icon-line-heart"></span> Love</a>
+													<div class="dropdown-divider"></div>
+													<a class="dropdown-item" href="#"><span class="icon-line-share"></span> Share</a>
+												</li>
+											</ul>
+										</div> -->
+									</div>
+
+									<div class="songs-list">
+											<div class="songs-number">14</div>
+											<div class="songs-image track-image">
+												<a href="#" class="track-list"  data-track="assets/music/tracks/14 DreamRadio Episode.mp3" data-poster="assets/music/tracks/poster-images/wttc questinmark2png.png" data-title="DreamRadio Episode" data-singer="Lyrica">
+													<img src="assets/music/tracks/poster-images/wttc questinmark2png.png" alt="Image 1"><span><i class="icon-play"></i></span>
+												</a>
+											</div>
+											<div class="songs-name track-name"><a href="#">DreamRadio Episode</a></div>
+											<div class="songs-time">03:28</div>
+											<!-- <div class="songs-button"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-line-ellipsis"></i></a>
+												<ul class="dropdown-menu dropdown-menu-right">
+													<li>
+														<a class="dropdown-item" href="#"><span class="icon-line-plus"></span> Add to Queue</a>
+														<a class="dropdown-item" href="#"><span class="icon-music"></span> Add to Playlist</a>
+														<a class="dropdown-item" href="#"><span class="icon-line-cloud-download"></span> Download Offline</a>
+														<a class="dropdown-item" href="#"><span class="icon-line-heart"></span> Love</a>
+														<div class="dropdown-divider"></div>
+														<a class="dropdown-item" href="#"><span class="icon-line-share"></span> Share</a>
+													</li>
+												</ul>
+											</div> -->
+										</div>
+
+								
+										<div class="songs-list">
+												<div class="songs-number">15</div>
+												<div class="songs-image track-image">
+													<a href="#" class="track-list"  data-track="assets/music/tracks/15 Programame.mp3" data-poster="assets/music/tracks/poster-images/wttc questinmark2png.png" data-title="Programame" data-singer="Lyrica">
+														<img src="assets/music/tracks/poster-images/wttc questinmark2png.png" alt="Image 1"><span><i class="icon-play"></i></span>
+													</a>
+												</div>
+												<div class="songs-name track-name"><a href="#">Programame</a></div>
+												<div class="songs-time">03:28</div>
+												<!-- <div class="songs-button"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-line-ellipsis"></i></a>
+													<ul class="dropdown-menu dropdown-menu-right">
+														<li>
+															<a class="dropdown-item" href="#"><span class="icon-line-plus"></span> Add to Queue</a>
+															<a class="dropdown-item" href="#"><span class="icon-music"></span> Add to Playlist</a>
+															<a class="dropdown-item" href="#"><span class="icon-line-cloud-download"></span> Download Offline</a>
+															<a class="dropdown-item" href="#"><span class="icon-line-heart"></span> Love</a>
+															<div class="dropdown-divider"></div>
+															<a class="dropdown-item" href="#"><span class="icon-line-share"></span> Share</a>
+														</li>
+													</ul>
+												</div> -->
+											</div>
+
+											<div class="songs-list">
+													<div class="songs-number">16</div>
+													<div class="songs-image track-image">
+														<a href="#" class="track-list"  data-track="assets/music/tracks/16. Reclamo De Amor.mp3" data-poster="assets/music/tracks/poster-images/wttc questinmark2png.png" data-title="Reclamo De Amor" data-singer="Lyrica">
+															<img src="assets/music/tracks/poster-images/wttc questinmark2png.png" alt="Image 1"><span><i class="icon-play"></i></span>
+														</a>
+													</div>
+													<div class="songs-name track-name"><a href="#">Reclamo De Amor</a></div>
+													<div class="songs-time">03:28</div>
+													<!-- <div class="songs-button"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-line-ellipsis"></i></a>
+														<ul class="dropdown-menu dropdown-menu-right">
+															<li>
+																<a class="dropdown-item" href="#"><span class="icon-line-plus"></span> Add to Queue</a>
+																<a class="dropdown-item" href="#"><span class="icon-music"></span> Add to Playlist</a>
+																<a class="dropdown-item" href="#"><span class="icon-line-cloud-download"></span> Download Offline</a>
+																<a class="dropdown-item" href="#"><span class="icon-line-heart"></span> Love</a>
+																<div class="dropdown-divider"></div>
+																<a class="dropdown-item" href="#"><span class="icon-line-share"></span> Share</a>
+															</li>
+														</ul>
+													</div> -->
+												</div>
+							</div>
+
+						</div>
+					</div>
+
+					
+					<div class="clear"></div>
+
+					<!-- <div class="row topmargin-lg dark clearfix">
+			
+						<div class="col-lg-4 col-md-6">
+							<h3>Soundcloud Embed</h3>
+							<iframe width="100%" height="130" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/301161123&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe><br><br>
+							<iframe width="100%" height="130" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/278002889&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+						</div>
+
+						<div class="col-lg-7 col-md-5 offset-md-1 ohidden">
+							<div class="row clearfix">
+								<div class="col-lg-6 order-lg-12">
+									<div class="d-block d-md-none d-lg-none d-xl-block topmargin clear"></div>
+									<h3>Grab it Now in Mobile</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, impedit.</p>
+									<a href="#" class="button button-small button-rounded button-desc noleftmargin clearfix"><i class="icon-apple"></i><div>App Store<span>Free Forever, Downlod It Now</span></div></a>
+									<a href="#" class="button button-small button-rounded button-desc noleftmargin clearfix" style="margin-top: 10px"><i class="icon-android"></i><div>Google Play<span>Free Forever, Downlod It Now</span></div></a>
+								</div>
+								<div class="d-block d-md-block d-lg-none topmargin clear"></div>
+								<div class="col-lg-6 order-lg-1 d-sm-none d-md-none d-lg-block">
+									<img src="assets/music/images/iphone.png" alt="Mobile" data-animate="fadeInUp">
+								</div>
+							</div>
+						</div>
+					</div> -->
+
+				</div>
+
+			</div>
+
+		</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="noborder dark" style="background-color: #111;">
+
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights" style="color: #444;">
+
+				<div class="container clearfix">
+
+					<div class="col_half">
+						Copyrights &copy; 2019 Dream Radio.
+					</div>
+
+					<!-- <div class="col_half col_last">
+						<div class="fright clearfix">
+							<a href="#" class="social-icon si-small si-borderless si-facebook">
+								<i class="icon-facebook"></i>
+								<i class="icon-facebook"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless si-twitter">
+								<i class="icon-twitter"></i>
+								<i class="icon-twitter"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless si-gplus">
+								<i class="icon-gplus"></i>
+								<i class="icon-gplus"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless si-pinterest">
+								<i class="icon-pinterest"></i>
+								<i class="icon-pinterest"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless si-vimeo">
+								<i class="icon-vimeo"></i>
+								<i class="icon-vimeo"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless si-github">
+								<i class="icon-github"></i>
+								<i class="icon-github"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless si-yahoo">
+								<i class="icon-yahoo"></i>
+								<i class="icon-yahoo"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless si-linkedin">
+								<i class="icon-linkedin"></i>
+								<i class="icon-linkedin"></i>
+							</a>
+						</div>
+					</div> -->
+
+				</div>
+
+			</div><!-- #copyrights end -->
+
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Audio Player
+	============================================= -->
+	<audio id="audio-player" preload="none" class="mejs__player" controls data-mejsoptions='{"defaultAudioHeight": "50", "alwaysShowControls": "true"}' style="max-width:100%;">
+		<source src="assets/music/src/audios/nashe-si.mp3" type="audio/mp3">
+	</audio>
+
+	<!-- Default Track - onLoad
+	============================================= -->
+	<div id="track-onload" data-track="assets/music/tracks/mirame.mp3" data-poster="assets/music/tracks/poster-images/mirame2.png" data-title="Mirame" data-singer="Single"></div>
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up" style="bottom: 70px;"></div>
+
+	<!-- External JavaScripts
+	============================================= -->
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins.js"></script>
+
+	<!-- Audio player Plugin
+	============================================= -->
+	<script src="assets/music/js/mediaelement/mediaelement-and-player.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="js/functions.js"></script>
+
+	<script>
+
+		// Custom Tab jQuery
+		// jQuery( '.tabs' ).on( 'tabsactivate', function( event, ui ) {
+		// 	var gridContainerAvailable = jQuery( ui.newPanel ).find('.grid-container');
+
+		// 	if( gridContainerAvailable.length > 0 ) {
+		// 		gridContainerAvailable.each( function(){
+		// 			var portfolioGrid = jQuery(this);
+
+		// 			if( !portfolioGrid.hasClass('tabs-enabled-grid-container') ) {
+		// 				portfolioGrid.isotope('layout');
+		// 				jQuery(window).trigger('resize');
+		// 				portfolioGrid.addClass('tabs-enabled-grid-container');
+		// 			}
+		// 		});
+		// 	}
+		// });
+
+		// Music playing Scripts
+		var trackPlaying = '',
+			audioPlayer = document.getElementById('audio-player');
+
+		audioPlayer.addEventListener("ended", function(){
+			jQuery('.track-list').find('i').removeClass('icon-pause').addClass('icon-play');
+		});
+
+		audioPlayer.addEventListener("pause", function(){
+			jQuery('.track-list').find('i').removeClass('icon-pause').addClass('icon-play');
+		});
+
+		function changeAudio( sourceUrl, posterUrl, trackTitle, trackSinger, playAudio = true ) {
+			var audio = $("#audio-player"),
+				clickEl = jQuery('[data-track="'+sourceUrl+'"]'),
+				playerId = audio.closest('.mejs__container').attr('id'),
+				playerObject = mejs.players[playerId];
+
+			jQuery('.track-list').find('i').removeClass('icon-pause').addClass('icon-play');
+
+			if( sourceUrl == trackPlaying ) {
+				if (playerObject.paused) {
+					playerObject.play();
+					clickEl.find('i').removeClass('icon-play').addClass('icon-pause');
+				} else {
+					playerObject.pause();
+					clickEl.find('i').removeClass('icon-pause').addClass('icon-play');
+				}
+				return true;
+			}
+
+			trackPlaying = sourceUrl;
+
+			audio.attr( 'poster', posterUrl );
+			audio.attr( 'title', trackTitle );
+
+			jQuery('.mejs__layers').html('').html('<div class="mejs-track-artwork"><img src="'+ posterUrl +'" alt="Track Poster" /></div><div class="mejs-track-details"><h3>'+ trackTitle +'<br><span>'+ trackSinger +'</span></h3></div>');
+
+			if( sourceUrl != '' ) {
+				playerObject.setSrc( sourceUrl );
+			}
+			playerObject.pause();
+			playerObject.load();
+
+			if( playAudio == true ) {
+				playerObject.play();
+				jQuery(clickEl).find('i').removeClass('icon-play').addClass('icon-pause');
+			}
+		}
+
+		jQuery('.track-list').on( 'click', function(){
+			var audioTrack = jQuery(this).attr('data-track'), // Track url
+				posterUrl = jQuery(this).attr('data-poster'), // Track Poster Image
+				trackTitle = jQuery(this).attr('data-title'); // Track Title
+				trackSinger = jQuery(this).attr('data-singer'); // Track Singer Name
+
+			changeAudio( audioTrack, posterUrl, trackTitle, trackSinger );
+			return false;
+		});
+
+		jQuery(window).on( 'load', function(){
+			var trackOnload = jQuery('#track-onload');
+
+			if( trackOnload.length > 0 ) {
+				var audioTrack = trackOnload.attr('data-track'), // Track url
+					posterUrl = trackOnload.attr('data-poster'), // Track Poster Image
+					trackTitle = trackOnload.attr('data-title'); // Track Title
+					trackSinger = trackOnload.attr('data-singer'); // Track Singer Name
+
+				setTimeout( function(){
+					changeAudio( audioTrack, posterUrl, trackTitle, trackSinger, false );
+				}, 500);
+			}
+		});
+
+	</script>
+
+</body>
+</html>
